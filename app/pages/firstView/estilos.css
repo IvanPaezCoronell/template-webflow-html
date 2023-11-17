@@ -1,0 +1,40 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:wght@300&display=swap');
+
+:root {
+    --font-family: 'Inter', sans-serif;
+    --color-quote: #24afb5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #1C1C1C;
+    transition: .3s ease-in-out;
+}
+
+li{
+    list-style: none;
+    font-style: normal;
+}
