@@ -660,3 +660,106 @@ a {
 		width: 30%;
 	}
 }
+
+/* SECCION FOUR */
+.four-section-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5% 0 0 0;
+	gap: 5%;
+}
+.four-left-container {
+	margin: 0;
+    padding: 0px;
+    text-align: start;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+
+.four-section-container h3 {
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: -1.2px;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+.four-section-container p{
+	font-size: 15px;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: -0.3px;
+	margin-bottom: 20px;
+}
+
+
+/*CARDS*/
+
+/** PRIMERA CARTA*/
+.four-first-card{
+	position: relative;
+    left: -457px;
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    margin-bottom: 10px; 
+}
+
+.footer-tittle-first {
+    margin: 0; 
+}
+
+/** SEGUNDA CARTA*/
+.icono-user {
+    float: left; 
+    margin-right: 10px; 
+}
+.comillas {
+    width: 40px; 
+
+}
+
+.four-second-card{
+	position: relative;
+    top: -198px;
+}
+
+
+.second-left-section{
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-card-second{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/** TERCERA CARTA*/
+.tree-tree-card{
+	position: relative;
+	right: -436px;
+	top: -402px;
+}
+
+.footer-card-tree{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
