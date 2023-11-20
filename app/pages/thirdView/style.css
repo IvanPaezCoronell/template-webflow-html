@@ -763,3 +763,101 @@ a {
 	align-items: center;
 	justify-content: space-between;
 }
+
+/** Seccion 5*/
+.five-left-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10% 5%; 
+    border-top: 1px solid #dbdbdb;
+}
+
+.five-title {
+    flex: 1; 
+}
+
+.five-section-form {
+    text-align: center;
+}
+
+.five-section-form button {
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #24afb5;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 1px 0px rgba(0, 0, 0, 0.03),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+}
+
+/** footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 60px; /* Ajuste en el tamaño del logo */
+    margin-right: 10px;
+}
+
+.footer-left h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.footer-left p {
+    font-size: 15px;
+    margin-left: 73px;
+    line-height: 1.5; /* Divide el párrafo en espaciado de una línea */
+}
+
+.footer-category {
+    display: flex; /* Agregado para que las categorías se alineen horizontalmente */
+}
+
+.footer-one,
+.footer-two,
+.footer-three {
+    margin-right: 55px; /* Ajusta el espacio entre las categorías según sea necesario */
+    text-align: left;
+    margin-bottom: 40px; /* Ajusta el espacio entre los contenidos de las categorías según sea necesario */
+}
+
+.footer-one h4,
+.footer-two h4,
+.footer-three h4 {
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 15px; /* Ajusta el espacio entre los elementos de la lista según sea necesario */
+}
+
+.footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #000;
+}
