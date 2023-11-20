@@ -861,3 +861,21 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+/* Estilos para el nuevo div "copyright-container" */
+.copyright-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #807c7c;
+	margin: 10px;
+	padding: 10px;
+	font-size: 13px;
+}
+
+.copyright-links {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	font-size: 13px;
+}
